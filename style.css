@@ -440,6 +440,15 @@ h5:after {
         border-bottom: 2px solid #E6B001;
         margin-right: auto;
     }
+     #footer {
+        background-color: #BBC443;
+        height: auto;
+        width: 100%;
+    }
+    .icon1 {
+        text-align: center;
+    }
+
 
 }
 
@@ -492,6 +501,15 @@ h5:after {
 
 
      }
+     #footer {
+        background-color: #BBC443;
+        height: auto;
+        width: 100%;
+    }
+    .icon1 {
+        text-align: center;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
@@ -538,6 +556,15 @@ h5:after {
 
 
      }
+     #footer {
+        background-color: #BBC443;
+        height: auto;
+        width: 100%;
+    }
+    .icon1 {
+        text-align: center;
+    }
+
 
 }
 
@@ -590,6 +617,15 @@ h5:after {
 
 
      }
+     #footer {
+        background-color: #BBC443;
+        height: auto;
+        width: 100%;
+    }
+    .icon1 {
+        text-align: center;
+    }
+
 
 }
 
@@ -630,4 +666,13 @@ h5:after {
 
 
      }
+     #footer {
+        background-color: #BBC443;
+        height: auto;
+        width: 100%;
+    }
+    .icon1 {
+        text-align: center;
+    }
+
 }
