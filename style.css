@@ -62,12 +62,16 @@ nav {
 active {
     color: yellow;
 }
-
+.cover {
+    background-image: url('img/background.png');
+    height: 100vh;
+    background-repeat: repeat-x;
+}
 .hero {
-    display: flex;
+    display: inline-block;
     width: 100%;
     height: 100%;
-    align-self: flex-start;
+
 }
 
 .heading {
@@ -96,6 +100,7 @@ h6:after {
     flex: 1 1;
     border-bottom: 2px solid #E6B001;
     margin-right: 570px
+    
 }
 
 h5 {
@@ -107,14 +112,14 @@ h5:before {
     content: "";
     flex: 1 1;
     border-bottom: 2px solid #E6B001;
-    margin:auto;
+    margin: auto;
 }
 
 h5:after {
     content: "";
     flex: 1 1;
     border-bottom: 2px solid #E6B001;
-    margin:auto;
+    margin: auto;
 }
 
 .blog {
@@ -134,12 +139,14 @@ h5:after {
     padding: 1rem;
 
 }
-
-.frame::before {
-    background-image: url('img/Ellipse\ 1.png');
-    height: 30px;
+.character{
+    margin-top: 25%;
 }
-
+.ball {
+    margin-right: 50%;
+    align-self: flex-start;
+    display: inline-flex;
+}
 .frame {
     background-color: #D5DEE6;
     height: 100%;
@@ -152,7 +159,7 @@ h5:after {
     color: #CC9D01;
     font-weight: 200;
     font-size: 60px;
-    text-align:center;
+    text-align: center
 }
 
 .image {
@@ -190,7 +197,6 @@ h5:after {
 
 .wrapper .content {
     position: absolute;
-    /* Position the background text */
     bottom: 0;
     /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0);
@@ -245,9 +251,16 @@ h5:after {
     float: right;
 }
 
+.float3 {
+    vertical-align: bottom;
+    margin: auto;
+    float: left;
+}
+
 #footer {
     background-color: #BBC443;
     height: 100px;
+    width: 100%;
 }
 
 .end {
@@ -256,6 +269,7 @@ h5:after {
 
 .icon1 {
     text-align: end;
+ 
 }
 
 
@@ -360,7 +374,9 @@ h5:after {
         border-bottom: 2px solid #E6B001;
         margin-right: auto;
     }
-
+    .ball {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 752px) {
@@ -441,13 +457,14 @@ h5:after {
         margin-right: auto;
     }
      #footer {
-        background-color: #BBC443;
-        height: auto;
-        width: 100%;
-    }
-    .icon1 {
-        text-align: center;
-    }
+         background-color: #BBC443;
+         height: auto;
+         width: 100%;
+     }
+
+     .icon1 {
+         text-align: center;
+     }
 
 
 }
@@ -495,20 +512,22 @@ h5:after {
         border-bottom: 2px solid #E6B001;
         margin-right: auto;
     }
-     .social {
-         display: block;
-         margin-left: 20%;
+
+    .social {
+        display: block;
+        margin-left: 20%;
 
 
-     }
+    }
      #footer {
-        background-color: #BBC443;
-        height: auto;
-        width: 100%;
-    }
-    .icon1 {
-        text-align: center;
-    }
+         background-color: #BBC443;
+         height: auto;
+         width: 100%;
+     }
+
+     .icon1 {
+         text-align: center;
+     }
 
 }
 
@@ -550,20 +569,22 @@ h5:after {
         border-bottom: 2px solid #E6B001;
         margin-right: auto;
     }
-     .social {
-         display: block;
-         margin-left: 20%;
+
+    .social {
+        display: block;
+        margin-left: 20%;
 
 
-     }
+    }
      #footer {
-        background-color: #BBC443;
-        height: auto;
-        width: 100%;
-    }
-    .icon1 {
-        text-align: center;
-    }
+         background-color: #BBC443;
+         height: auto;
+         width: 100%;
+     }
+
+     .icon1 {
+         text-align: center;
+     }
 
 
 }
@@ -611,20 +632,22 @@ h5:after {
         border-bottom: 2px solid #E6B001;
         margin-right: auto;
     }
-     .social {
-         display: block;
-         margin-left: 20%;
+
+    .social {
+        display: block;
+        margin-left: 20%;
 
 
-     }
+    }
      #footer {
-        background-color: #BBC443;
-        height: auto;
-        width: 100%;
-    }
-    .icon1 {
-        text-align: center;
-    }
+         background-color: #BBC443;
+         height: auto;
+         width: 100%;
+     }
+
+     .icon1 {
+         text-align: center;
+     }
 
 
 }
@@ -660,13 +683,13 @@ h5:after {
         border-bottom: 2px solid #E6B001;
         margin-right: auto;
     }
-     .social {
-         display: block;
-         margin-left: 18%;
 
+    .social {
+        display: block;
+        margin-left: 18%;
+    }
 
-     }
-     #footer {
+    #footer {
         background-color: #BBC443;
         height: auto;
         width: 100%;
